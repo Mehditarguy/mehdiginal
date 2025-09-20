@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mehdiginal - Premium Video Editor & Creative Director</title>
+    <meta name="description" content="Premium video editing services by Mehdiginal. 4+ years experience, 300+ projects, 200M+ views. Specializing in Motion Graphics, After Effects, and creative video production.">
+    <meta name="keywords" content="video editor, motion graphics, after effects, premiere pro, creative director, mehdiginal">
+    <meta name="author" content="Mehdiginal">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Mehdiginal - Premium Video Editor & Creative Director">
+    <meta property="og:description" content="Transform your vision into reality with premium video editing and motion graphics services">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mehdiginal.com">
+    
+    <!-- Content Security Policy for YouTube embedding -->
+    <meta http-equiv="Content-Security-Policy" content="frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://player.vimeo.com;">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGRlZnM+CjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM2MzY2ZjE7c3RvcC1vcGFjaXR5OjEiIC8+CjxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6IzhiNWNmNjtzdG9wLW9wYWNpdHk6MSIgLz4KPC9saW5lYXJHcmFkaWVudD4KPC9kZWZzPgo8cmVjdCB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHJ4PSI4IiBmaWxsPSJ1cmwoI2dyYWQpIi8+Cjx0ZXh0IHg9IjE2IiB5PSIyMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSJib2xkIj5NPC90ZXh0Pgo8L3N2Zz4K">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen active">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <div class="logo-animation">M</div>
+            </div>
+            <div class="loading-text">
+                <h2>Mehdiginal</h2>
+                <p>Crafting Cinematic Experiences</p>
+            </div>
+            <div class="loading-progress">
+                <div class="progress-bar"></div>
+            </div>
+        </div>
+        <div class="loading-particles"></div>
+    </div>
+
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress">
+        <div class="progress-fill"></div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor">
+        <div class="cursor-dot"></div>
+        <div class="cursor-ring"></div>
+    </div>
+
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" aria-label="Toggle theme">
+        <span class="theme-icon">🌓</span>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="nav-header">
+        <div class="container">
+            <div class="nav-container">
+                <div class="logo">
+                    <div class="logo-container">
+                        <span class="logo-text gradient-text">Mehdiginal</span>
+                        <span class="logo-subtitle">Creative Director</span>
+                    </div>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#clients" class="nav-link">Clients</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-cta">
+                    <a href="#contact" class="btn btn--primary btn--sm">Let's Work Together</a>
+                </div>
+                <div class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-header">
+            <div class="logo">
+                <span class="gradient-text">Mehdiginal</span>
+            </div>
+            <button class="mobile-menu-close">&times;</button>
+        </div>
+        <div class="mobile-nav-links">
+            <a href="#home" class="mobile-nav-link">Home</a>
+            <a href="#projects" class="mobile-nav-link">Projects</a>
+            <a href="#clients" class="mobile-nav-link">Clients</a>
+            <a href="#skills" class="mobile-nav-link">Skills</a>
+            <a href="#contact" class="mobile-nav-link">Contact</a>
+        </div>
+        <div class="mobile-menu-footer">
+            <a href="#contact" class="btn btn--primary btn--full-width">Start Your Project</a>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Home View -->
+        <div id="home-view" class="view active">
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-particles" id="hero-particles"></div>
+                <div class="hero-background">
+                    <div class="gradient-orb orb-1"></div>
+                    <div class="gradient-orb orb-2"></div>
+                    <div class="gradient-orb orb-3"></div>
+                </div>
+                <div class="container">
+                    <div class="hero-content">
+                        <div class="hero-text">
+                            <div class="hero-badge animate-fade-up">
+                                <span class="badge-dot"></span>
+                                <span>Available for Projects</span>
+                            </div>
+                            <h1 class="hero-title">
+                                <span class="title-line animate-fade-up">Premium</span>
+                                <span class="title-line animate-fade-up gradient-text">Video Editor</span>
+                                <span class="title-line animate-fade-up">& Creative Director</span>
+                            </h1>
+                            <p class="hero-subtitle animate-fade-up">Transforming brands through cinematic storytelling and cutting-edge motion graphics. 4+ years of experience creating viral content with 200M+ views and enhanced YouTube embedding.</p>
+                            
+                            <div class="hero-stats animate-fade-up">
+                                <div class="stat-item">
+                                    <span class="stat-number counter" data-target="4">0</span>
+                                    <span class="stat-label">Years Experience</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number counter" data-target="300">0</span>
+                                    <span class="stat-label">Projects Done</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number counter" data-target="200">0</span>
+                                    <span class="stat-label">Million Views</span>
+                                </div>
+                            </div>
+
+                            <div class="skills-showcase animate-fade-up">
+                                <div class="skill-badge featured">
+                                    <span class="skill-icon">🎬</span>
+                                    <span>Motion Graphics</span>
+                                </div>
+                                <div class="skill-badge">
+                                    <span class="skill-icon">🎬</span>
+                                    <span>After Effects</span>
+                                </div>
+                                <div class="skill-badge">
+                                    <span class="skill-icon">✂️</span>
+                                    <span>Premiere Pro</span>
+                                </div>
+                                <div class="skill-badge">
+                                    <span class="skill-icon">🎨</span>
+                                    <span>DaVinci Resolve</span>
+                                </div>
+                                <div class="skill-badge">
+                                    <span class="skill-icon">🎭</span>
+                                    <span>Blender</span>
+                                </div>
+                            </div>
+                            
+                            <div class="hero-buttons animate-fade-up">
+                                <a href="#projects" class="btn btn--primary btn--lg">
+                                    <span>View My Work</span>
+                                    <div class="btn-shine"></div>
+                                </a>
+                                <a href="#contact" class="btn btn--outline btn--lg">
+                                    <span>Let's Collaborate</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="hero-visual">
+                            <div class="hero-image-container animate-fade-up">
+                                <div class="image-frame">
+                                    <img src="https://drive.google.com/thumbnail?id=1SxYsr-WFxltpxKcK7IZH1Fknfxnb2sV9&sz=w400" alt="Mehdiginal Profile" class="profile-image">
+                                    <div class="image-overlay"></div>
+                                </div>
+                                <div class="floating-elements">
+                                    <div class="floating-icon icon-1">🎬</div>
+                                    <div class="floating-icon icon-2">✨</div>
+                                    <div class="floating-icon icon-3">🎨</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Achievements Section -->
+            <section class="achievements">
+                <div class="container">
+                    <h2 class="section-title animate-fade-up">Trusted by Industry Leaders</h2>
+                    <div class="achievements-grid animate-fade-up">
+                        <div class="achievement-item glass-card">
+                            <div class="achievement-icon">🏆</div>
+                            <h4>Best Video Editor 2024</h4>
+                            <p>Creative Awards</p>
+                        </div>
+                        <div class="achievement-item glass-card">
+                            <div class="achievement-icon">⭐</div>
+                            <h4>Top Freelancer</h4>
+                            <p>Platform Excellence</p>
+                        </div>
+                        <div class="achievement-item glass-card">
+                            <div class="achievement-icon">📈</div>
+                            <h4>Million Views Creator</h4>
+                            <p>YouTube Recognition</p>
+                        </div>
+                        <div class="achievement-item glass-card">
+                            <div class="achievement-icon">💯</div>
+                            <h4>99% Client Satisfaction</h4>
+                            <p>Customer Success</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Featured Projects -->
+            <section class="featured-projects">
+                <div class="container">
+                    <div class="section-header animate-fade-up">
+                        <h2 class="section-title gradient-text">Featured Projects</h2>
+                        <p class="section-subtitle">Showcasing recent work that pushed creative boundaries with enhanced video embedding</p>
+                    </div>
+                    <div class="projects-showcase" id="featured-projects-showcase">
+                        <!-- Projects will be dynamically loaded -->
+                    </div>
+                    <div class="section-footer animate-fade-up">
+                        <a href="#projects" class="btn btn--outline btn--lg">
+                            <span>Explore All Projects</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Clients Preview -->
+            <section class="clients-preview">
+                <div class="container">
+                    <div class="section-header animate-fade-up">
+                        <h2 class="section-title gradient-text">Client Spotlight</h2>
+                        <p class="section-subtitle">Building lasting partnerships through exceptional results and seamless video delivery</p>
+                    </div>
+                    <div class="clients-showcase" id="clients-preview-showcase">
+                        <!-- Clients will be dynamically loaded -->
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Projects View -->
+        <div id="projects-view" class="view">
+            <div class="container">
+                <div class="page-header animate-fade-up">
+                    <h1 class="page-title gradient-text">All Projects</h1>
+                    <p class="page-subtitle">Complete portfolio showcasing diverse creative solutions with enhanced YouTube embedding and Error 153 fixes</p>
+                    
+                    <!-- Project Filters -->
+                    <div class="project-filters">
+                        <button class="filter-btn active" data-filter="all">All Projects</button>
+                        <button class="filter-btn" data-filter="motion graphics">Motion Graphics</button>
+                        <button class="filter-btn" data-filter="branding">Branding</button>
+                        <button class="filter-btn" data-filter="events">Events</button>
+                        <button class="filter-btn" data-filter="championship">Championship</button>
+                    </div>
+                </div>
+                <div class="projects-grid" id="all-projects-grid">
+                    <!-- All projects will be dynamically loaded -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Project Detail View -->
+        <div id="project-detail-view" class="view">
+            <div class="container">
+                <div class="project-nav">
+                    <button class="btn btn--outline back-btn" id="back-to-projects">
+                        <span>← Back to Projects</span>
+                    </button>
+                </div>
+                <div id="project-detail-content">
+                    <!-- Project details will be dynamically loaded -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Skills View -->
+        <div id="skills-view" class="view">
+            <div class="container">
+                <div class="page-header animate-fade-up">
+                    <h1 class="page-title gradient-text">Skills & Expertise</h1>
+                    <p class="page-subtitle">Mastering the craft through continuous learning and innovation</p>
+                </div>
+                
+                <div class="skills-content">
+                    <div class="skills-grid animate-fade-up">
+                        <div class="skill-category glass-card">
+                            <div class="category-header">
+                                <div class="category-icon">🎬</div>
+                                <h3>Motion Graphics & Animation</h3>
+                            </div>
+                            <div class="skills-list">
+                                <div class="skill-item">
+                                    <span class="skill-name">After Effects</span>
+                                    <div class="skill-level">
+                                        <div class="skill-bar" data-level="95"></div>
+                                        <span class="skill-percentage">95%</span>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">Cinema 4D</span>
+                                    <div class="skill-level">
+                                        <div class="skill-bar" data-level="85"></div>
+                                        <span class="skill-percentage">85%</span>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">Blender</span>
+                                    <div class="skill-level">
+                                        <div class="skill-bar" data-level="80"></div>
+                                        <span class="skill-percentage">80%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-category glass-card">
+                            <div class="category-header">
+                                <div class="category-icon">✂️</div>
+                                <h3>Video Editing & Color</h3>
+                            </div>
+                            <div class="skills-list">
+                                <div class="skill-item">
+                                    <span class="skill-name">Premiere Pro</span>
+                                    <div class="skill-level">
+                                        <div class="skill-bar" data-level="90"></div>
+                                        <span class="skill-percentage">90%</span>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">DaVinci Resolve</span>
+                                    <div class="skill-level">
+                                        <div class="skill-bar" data-level="85"></div>
+                                        <span class="skill-percentage">85%</span>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">Final Cut Pro</span>
+                                    <div class="skill-level">
+                                        <div class="skill-bar" data-level="75"></div>
+                                        <span class="skill-percentage">75%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-category glass-card">
+                            <div class="category-header">
+                                <div class="category-icon">🎨</div>
+                                <h3>Creative Design</h3>
+                            </div>
+                            <div class="skills-list">
+                                <div class="skill-item">
+                                    <span class="skill-name">Photoshop</span>
+                                    <div class="skill-level">
+                                        <div class="skill-bar" data-level="88"></div>
+                                        <span class="skill-percentage">88%</span>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">Illustrator</span>
+                                    <div class="skill-level">
+                                        <div class="skill-bar" data-level="82"></div>
+                                        <span class="skill-percentage">82%</span>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">Figma</span>
+                                    <div class="skill-level">
+                                        <div class="skill-bar" data-level="78"></div>
+                                        <span class="skill-percentage">78%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="certifications animate-fade-up">
+                        <h3>Certifications & Awards</h3>
+                        <div class="certifications-grid">
+                            <div class="certification-item glass-card">
+                                <div class="cert-icon">🏆</div>
+                                <h4>Adobe Certified Expert</h4>
+                                <p>After Effects & Premiere Pro</p>
+                            </div>
+                            <div class="certification-item glass-card">
+                                <div class="cert-icon">⭐</div>
+                                <h4>Motion Graphics Master</h4>
+                                <p>Advanced Certification</p>
+                            </div>
+                            <div class="certification-item glass-card">
+                                <div class="cert-icon">🎯</div>
+                                <h4>Creative Excellence Award</h4>
+                                <p>Industry Recognition 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Clients View -->
+        <div id="clients-view" class="view">
+            <div class="container">
+                <div class="clients-layout">
+                    <div class="clients-sidebar">
+                        <div class="page-header">
+                            <h1 class="page-title gradient-text">Our Clients</h1>
+                            <p class="page-subtitle">Building success stories together with enhanced video delivery</p>
+                        </div>
+                        <div class="clients-list" id="clients-list">
+                            <!-- Client list will be dynamically loaded -->
+                        </div>
+                    </div>
+                    <div class="clients-content">
+                        <div class="clients-content-area" id="clients-content-area">
+                            <div class="welcome-message glass-card">
+                                <div class="welcome-icon">👥</div>
+                                <h2>Select a client to explore our work</h2>
+                                <p>Click on any client from the sidebar to dive deep into our collaborative projects and see the amazing results we've achieved together. All videos now feature enhanced embedding with Error 153 fixes and elegant fallback options.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact View -->
+        <div id="contact-view" class="view">
+            <div class="container">
+                <div class="page-header animate-fade-up">
+                    <h1 class="page-title gradient-text">Let's Create Together</h1>
+                    <p class="page-subtitle">Ready to transform your vision into stunning reality? Let's start the conversation with guaranteed video delivery solutions</p>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info animate-fade-up">
+                        <div class="contact-card glass-card">
+                            <div class="contact-header">
+                                <div class="contact-icon">📧</div>
+                                <h3>Get in Touch</h3>
+                            </div>
+                            <div class="contact-details">
+                                <div class="contact-item">
+                                    <strong>Email:</strong>
+                                    <a href="mailto:mahditarguy3@gmail.com">mahditarguy3@gmail.com</a>
+                                </div>
+                                <div class="contact-item">
+                                    <strong>Phone:</strong>
+                                    <a href="tel:+212707900546">+212707900546</a>
+                                </div>
+                                <div class="contact-item">
+                                    <strong>Location:</strong>
+                                    <span>Professional Studio, Creative District</span>
+                                </div>
+                                <div class="contact-item">
+                                    <strong>Response Time:</strong>
+                                    <span class="response-badge">Within 24 hours</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="services-card glass-card">
+                            <div class="contact-header">
+                                <div class="contact-icon">🎯</div>
+                                <h3>Services Offered</h3>
+                            </div>
+                            <div class="services-list">
+                                <div class="service-item">
+                                    <span class="service-icon">🎬</span>
+                                    <span>Video Editing & Post-Production</span>
+                                </div>
+                                <div class="service-item">
+                                    <span class="service-icon">✨</span>
+                                    <span>Motion Graphics & Animation</span>
+                                </div>
+                                <div class="service-item">
+                                    <span class="service-icon">🎨</span>
+                                    <span>Brand Video Creation</span>
+                                </div>
+                                <div class="service-item">
+                                    <span class="service-icon">📱</span>
+                                    <span>Social Media Content</span>
+                                </div>
+                                <div class="service-item">
+                                    <span class="service-icon">🎭</span>
+                                    <span>Creative Direction</span>
+                                </div>
+                                <div class="service-item">
+                                    <span class="service-icon">🔧</span>
+                                    <span>Video Embedding Solutions</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-links glass-card">
+                            <div class="contact-header">
+                                <div class="contact-icon">🌐</div>
+                                <h3>Connect With Me</h3>
+                            </div>
+                            <div class="social-grid">
+                                <a href="https://instagram.com/mehdiginal" target="_blank" class="social-link">
+                                    <span class="social-icon">📷</span>
+                                    <span>Instagram</span>
+                                </a>
+                                <a href="https://youtube.com/@mehdiginal" target="_blank" class="social-link">
+                                    <span class="social-icon">📺</span>
+                                    <span>YouTube</span>
+                                </a>
+                                <a href="https://vimeo.com/mehdiginal" target="_blank" class="social-link">
+                                    <span class="social-icon">🎬</span>
+                                    <span>Vimeo</span>
+                                </a>
+                                <a href="https://linkedin.com/in/mehdiginal" target="_blank" class="social-link">
+                                    <span class="social-icon">💼</span>
+                                    <span>LinkedIn</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-container animate-fade-up">
+                        <form class="contact-form glass-card" id="contact-form">
+                            <div class="form-header">
+                                <h3>Start Your Project</h3>
+                                <p>Tell me about your vision and let's make it happen with guaranteed video delivery</p>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label class="form-label" for="name">Name *</label>
+                                    <input type="text" id="name" name="name" class="form-control" required>
+                                    <div class="input-focus-ring"></div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="email">Email *</label>
+                                    <input type="email" id="email" name="email" class="form-control" required>
+                                    <div class="input-focus-ring"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="form-label" for="project-type">Project Type</label>
+                                <select id="project-type" name="project-type" class="form-control">
+                                    <option value="">Select project type</option>
+                                    <option value="video-editing">Video Editing</option>
+                                    <option value="motion-graphics">Motion Graphics</option>
+                                    <option value="brand-video">Brand Video</option>
+                                    <option value="social-media">Social Media Content</option>
+                                    <option value="embedding-solutions">Video Embedding Solutions</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <div class="input-focus-ring"></div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="form-label" for="budget">Budget Range</label>
+                                <select id="budget" name="budget" class="form-control">
+                                    <option value="">Select budget range</option>
+                                    <option value="under-1k">Under $1,000</option>
+                                    <option value="1k-5k">$1,000 - $5,000</option>
+                                    <option value="5k-10k">$5,000 - $10,000</option>
+                                    <option value="over-10k">Over $10,000</option>
+                                </select>
+                                <div class="input-focus-ring"></div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="form-label" for="message">Project Details *</label>
+                                <textarea id="message" name="message" class="form-control" rows="6" placeholder="Tell me about your project, goals, timeline, and any specific video delivery requirements..." required></textarea>
+                                <div class="input-focus-ring"></div>
+                            </div>
+                            
+                            <button type="submit" class="btn btn--primary btn--full-width btn--lg">
+                                <span>Send Project Brief</span>
+                                <div class="btn-shine"></div>
+                            </button>
+                            
+                            <p class="form-note">I'll get back to you within 24 hours with a detailed proposal and video delivery solution.</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3 class="gradient-text">Mehdiginal</h3>
+                    <p>Transforming visions into viral content with seamless delivery</p>
+                </div>
+                <div class="footer-stats">
+                    <div class="footer-stat">
+                        <span class="stat-number">200M+</span>
+                        <span class="stat-label">Total Views</span>
+                    </div>
+                    <div class="footer-stat">
+                        <span class="stat-number">99%</span>
+                        <span class="stat-label">Success Rate</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Mehdiginal. Crafting cinematic experiences with enhanced video embedding solutions.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
